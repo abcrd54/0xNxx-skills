@@ -17,11 +17,9 @@ Comprehensive cybersecurity skill package for AI agents, written in **Bahasa Ind
 - **21 Sub-Modules** — Deep-dive specialized skill files
 - **10+ Agent Support** — Works with all major AI coding assistants
 - **Dial System** — `INTENSITY` / `STEALTH` / `EDUCATION` for behavior control
-- **3 Built-in Modes** — Beginner, Professional, CTF
+- **Auto-Dial** — Automatically adjusts based on your task
 - **Memory System** — Persistent learning across sessions
 - **Cross-platform** — Windows, Linux, macOS, Android (Termux)
-
----
 
 ---
 
@@ -31,33 +29,31 @@ Comprehensive cybersecurity skill package for AI agents, written in **Bahasa Ind
 
 **Windows (PowerShell):**
 ```powershell
-iex (iwr -Uri "https://raw.githubusercontent.com/bengt-skill/0xNxx-skill/main/scripts/oneclick-install.ps1").Content
+iex (iwr -Uri "https://raw.githubusercontent.com/abcrd54/0xNxx-skills/main/scripts/oneclick-install.ps1").Content
 ```
 
 **Linux / macOS / Termux:**
 ```bash
-curl -sSL https://raw.githubusercontent.com/bengt-skill/0xNxx-skill/main/scripts/oneclick-install.sh | bash
+curl -sSL https://raw.githubusercontent.com/abcrd54/0xNxx-skills/main/scripts/oneclick-install.sh | bash
 ```
 
 ### Manual Install
 
 ```bash
 # Clone the repository
-git clone https://github.com/bengt-skill/0xNxx-skill.git
+git clone https://github.com/abcrd54/0xNxx-skills.git
 
 # For OpenCode
-cp -r 0xNxx-skill ~/.config/opencode/skills/
+cp -r 0xNxx-skills ~/.config/opencode/skills/
 
 # For Claude Code
-cp -r 0xNxx-skill ~/.claude/skills/
+cp -r 0xNxx-skills ~/.claude/skills/
 
 # For Cursor/Windsurf/Cline (project-based)
 cp configs/cursor/.cursorrules /path/to/project/
-cp -r core/ /path/to/project/core/
 
 # Universal (all agents)
 cp configs/universal/AGENTS.md /path/to/project/
-cp -r core/ /path/to/project/core/
 ```
 
 ### Supported AI Agents
@@ -112,7 +108,3 @@ Type your task in Bahasa Indonesia to the AI agent:
 | `EDUCATION` | 1-10 | Auto | 1=Just do it, 5=Brief explain, 10=Full tutorial |
 
 **Auto-detect:** Dial will automatically adjust based on your task. No manual setup needed.
-
----
-
-## Installation
