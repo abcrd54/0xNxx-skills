@@ -13,7 +13,7 @@ description: |
 
 ## Pendahuluan
 
-Breach workflow = full attack chain dari reconnaissance sampai impact. Ini adalah高级 level red team operations.
+Breach workflow = full attack chain dari reconnaissance sampai impact. Ini adalah level tinggi red team operations.
 
 **Intensity guide:**
 - `INTENSITY 1-3`: Planning ( threat modeling, scoping)

@@ -16,7 +16,7 @@ description: |
 Red team = tim yang simulate attacker real-world. C2 = infrastructure buat control compromised hosts.
 
 **Intensity guide:**
-- `INTENSITY 1-3`: Research (了解 C2 options)
+- `INTENSITY 1-3`: Research (pahami C2 options)
 - `INTENSITY 4-6`: Setup (deploy C2 infrastructure)
 - `INTENSITY 7-9`: Operations (full red team engagement)
 - `INTENSITY 10`: Advanced (custom C2, evasion, persistence)

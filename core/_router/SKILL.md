@@ -2,7 +2,7 @@
 name: 0xNxx-skill
 description: |
   0xNxx-skill — Paket skill keamanan siber dalam Bahasa Indonesia. Ini adalah skill master yang me-routing ke core modules.
-  调用: 0xNxx-skill router
+  Dipanggil: 0xNxx-skill router
 ---
 
 # 0xNxx-skill Super Router

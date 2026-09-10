@@ -453,7 +453,7 @@ FILE DITERIMA
 | binwalk | All | Embedded files |
 | exiftool | All | Metadata |
 | stegsolve | PNG, BMP | Visual analysis |
-| LSB隐写 | PNG | Bit planes |
+| LSB steganography | PNG | Bit planes |
 
 ---
 

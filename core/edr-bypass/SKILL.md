@@ -21,7 +21,7 @@ EDR (Endpoint Detection and Response) = software yang monitor activity di endpoi
 - **HIPS**: Host-based Intrusion Prevention System
 
 **Intensity guide:**
-- `INTENSITY 1-3`: Recon (了解 EDR/AV apa yang dipake)
+- `INTENSITY 1-3`: Recon (pahami EDR/AV apa yang dipake)
 - `INTENSITY 4-6`: Testing (test bypass techniques)
 - `INTENSITY 7-9`: Full evasion (kombinasi techniques)
 - `INTENSITY 10`: Advanced (custom shellcode, kernel evasion)
