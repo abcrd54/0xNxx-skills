@@ -46,7 +46,6 @@ references/**/*.md
 !.gitignore
 !README.md
 !LICENSE
-!SECURITY.md
 !AGENT_INSTALL.md
 !QUICK_INSTALL.md
 !SKILL.md

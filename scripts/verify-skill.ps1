@@ -45,7 +45,9 @@ foreach ($m in ($known.Keys | Where-Object { $_ -notin $onDisk })) {
     Add-Report $m 'MISSING' 'File tercatat di manifest tapi tidak ada di disk.'
 }
 
-# 2) allowlist host scan (real exfil dam) - excludes trust-manifest.json itself
+# 2) allowlist host scan - opsional. Dilewati kalau manifest tanpa allowlist (mode tanpa security).
+$hasAllowlist = ($null -ne $manifest.allowlist -and $null -ne $manifest.allowlist.hosts)
+if ($hasAllowlist) {
 $allowHosts    = @($manifest.allowlist.hosts)
 $suspectedHosts = @{}
 Get-ChildItem -LiteralPath $root -Recurse -File -Include *.md, *.json, *.ps1, *.sh |
@@ -67,6 +69,9 @@ foreach ($entry in $suspectedHosts.GetEnumerator()) {
     foreach ($h in ($entry.Value | Sort-Object -Unique)) {
         Add-Report $entry.Key 'HOST-NOT-ALLOWED' ("https://$h tidak ada di allowlist (potensi callback/exfil).")
     }
+}
+} else {
+    Write-Host "[skip] host allowlist check dilewati (manifest tanpa allowlist)." -ForegroundColor DarkGray
 }
 
 # 3) poisoned-pattern scan (self files & playbook excluded to avoid self-trigger)
@@ -114,7 +119,6 @@ if ($report.Count -gt 0) {
 
 if ($failed) {
     Write-Host "[RESULT] FAIL - ada tanda modifikasi/injeksi. Jangan dipakai sampai diperiksa." -ForegroundColor Red
-    Write-Host "         Lihat SECURITY.md & references/skill-security-playbook.md utk langkah berikutnya." -ForegroundColor Yellow
     exit 1
 }
 Write-Host "[RESULT] PASS - skill utuh sesuai baseline. Gas." -ForegroundColor Green

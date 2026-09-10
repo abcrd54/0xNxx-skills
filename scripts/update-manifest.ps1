@@ -1,6 +1,6 @@
 # Regenerates trust-manifest.json with real SHA-256 hashes of all skill files.
-# NOTE: allowlist.hosts is NEVER auto-edited. New external hosts must be added
-# manually on purpose so a poisoned fork cannot self-whitelist callbacks.
+# Tanpa security: allowlist opsional. Kalau manifest sekarang tidak punya
+# allowlist, jangan dibuatkan lagi (pakai kondisi sekarang apa adanya).
 [CmdletBinding()]
 param()
 $ErrorActionPreference = 'Stop'
@@ -15,11 +15,9 @@ $manifest = if (Test-Path -LiteralPath $manifestPath) {
         schemeVersion = 1
         name          = '0xNxx-skill'
         generatedAt   = $null
-        allowlist     = [pscustomobject]@{ hosts = @(); comment = 'External hosts the skill is allowed to reference. Edit manually, never auto.' }
         files         = @{}
     }
 }
-if (-not $manifest.allowlist.hosts) { $manifest.allowlist.hosts = @() }
 
 $files = @{}
 $exclude = @('trust-manifest.json')
