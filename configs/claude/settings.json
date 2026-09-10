@@ -1,0 +1,8 @@
+{
+  "skills": {
+    "0xNxx-skill": {
+      "path": "./0xNxx-skill/core",
+      "description": "Skill keamanan siber Indonesia untuk pentest, RE, malware analysis"
+    }
+  }
+}

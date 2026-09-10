@@ -1,0 +1,16 @@
+# 0xNxx-skill — Aider Configuration
+
+## Skills Directory
+skills_dir: ./0xNxx-skill/core
+
+## Auto-Load Rules
+# Aider akan auto-load SKILL.md dari setiap subfolder
+
+## Usage
+# 1. Copy 0xNxx-skill ke project lo
+# 2. Aider akan baca SKILL.md di setiap folder
+# 3. Ketik task dalam Bahasa Indonesia
+
+## Example
+# "Scan website https://example.com cari vulnerability"
+# "Analisis binary ini, cari format input yang benar"

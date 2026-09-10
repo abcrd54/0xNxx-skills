@@ -1,0 +1,358 @@
+﻿{
+    "schemeVersion":  1,
+    "name":  "0xNxx-skill",
+    "generatedAt":  "2026-09-10T06:26:03.0272662Z",
+    "allowlist":  {
+                      "hosts":  [
+                                    "github.com",
+                                    "frida.re",
+                                    "portswigger.net",
+                                    "tryhackme.com",
+                                    "hackthebox.com",
+                                    "pwn.college",
+                                    "picoctf.org",
+                                    "youtube.com",
+                                    "owasp.org",
+                                    "mas.owasp.org",
+                                    "opencode.ai",
+                                    "img.shields.io",
+                                    "hybrid-analysis.com",
+                                    "any.run",
+                                    "attack.mitre.org",
+                                    "yara.readthedocs.io",
+                                    "docs.remnux.org",
+                                    "www.malware-traffic-analysis.net",
+                                    "malware-traffic-analysis.net",
+                                    "ibotpeaches.github.io",
+                                    "developer.android.com",
+                                    "crt.sh",
+                                    "wordlists.assetnote.io",
+                                    "web.archive.org",
+                                    "nmap.org",
+                                    "community.chocolatey.org",
+                                    "golang.org",
+                                    "www.metasploit.com",
+                                    "metasploit.com",
+                                    "example.com",
+                                    "external.com",
+                                    "target.com",
+                                    "fuzz.target.com",
+                                    "attacker.com",
+                                    "malc2.example.com",
+                                    "vxug.fakedoma.in",
+                                    "malicious-c2.example.com",
+                                    "target"
+                                ],
+                      "comment":  "External hosts the skill is allowed to reference. Edit manually, never auto."
+                  },
+    "files":  {
+                  "core/reverse-binary/SKILL.md":  {
+                                                       "sha256":  "EFFC143A1C5F3D0D6E797052AA0BE69DB534A402DCE6B75EC12E57BAE2818B6B",
+                                                       "size":  26664
+                                                   },
+                  "references/xss-playbook.md":  {
+                                                     "sha256":  "52924073FCDCF8DFA9AE10F45B44DDA77F26AFB3EE202AE58C75FDCAC07E8DCB",
+                                                     "size":  3213
+                                                 },
+                  "references/sqli-playbook.md":  {
+                                                      "sha256":  "5F9E702201AFE62D30174F4DE6EABD8AF1D275315A13A9D3793F5393D8F43B76",
+                                                      "size":  2830
+                                                  },
+                  "core/redteam-c2/SKILL.md":  {
+                                                   "sha256":  "5D28126E4E0F4AC9F1E96A7936E96D50AB76FB13276547F95B225C52040ADFF8",
+                                                   "size":  10590
+                                               },
+                  "scripts/install.ps1":  {
+                                              "sha256":  "2F2E9BC45414A8DDCB5884E103257B95842D1D42075032A808B74DE96259D4B5",
+                                              "size":  6066
+                                          },
+                  "core/mobile-ios/SKILL.md":  {
+                                                   "sha256":  "73983B99DA6118D3C43DD385F50FDDD4E40D38A193AE77DDFDDC111E6115DDC1",
+                                                   "size":  8461
+                                               },
+                  "core/network-recon/nmap/SKILL.md":  {
+                                                           "sha256":  "73691CE7FFE3777C2BB287395ED10E97455EC3D3A5E3496A942DFAD1C3F7975B",
+                                                           "size":  9935
+                                                       },
+                  "references/frida-playbook.md":  {
+                                                       "sha256":  "BD4F42D2EA296625840C14008450FB80F439624C8CB54A67BC4FBAE82E93F5E1",
+                                                       "size":  7061
+                                                   },
+                  "core/pentest-web/xss/ADVANCED_XSS_TRICKS.md":  {
+                                                                      "sha256":  "AC51730AF5E503A70524E700424D82185D655BF79D5F62082D4A4B00B6572CBE",
+                                                                      "size":  9235
+                                                                  },
+                  "scripts/verify-skill.ps1":  {
+                                                   "sha256":  "A85B283E659B6008DA51323D93D7053A4817119CBE9603F2AAB688157A45A2B2",
+                                                   "size":  5508
+                                               },
+                  "core/mobile-android/ssl-pinning/SKILL.md":  {
+                                                                   "sha256":  "E8E7801B24E7DC2E313090C152736DDEA74D707787286586AFEFA498D6CB63F1",
+                                                                   "size":  19390
+                                                               },
+                  "core/network-recon/aws-postexploit/SKILL.md":  {
+                                                                      "sha256":  "D36DBBB4670E527D9E43D2EFE49AAA17E5348A0B07CB21A2A278CF6DB5B9ADC4",
+                                                                      "size":  18109
+                                                                  },
+                  "core/pentest-web/idor/SKILL.md":  {
+                                                         "sha256":  "B525BCFCF7802BF9E37923760B6F9FB037F2E9EDAE7E2ED56080E25ADFBEC67E",
+                                                         "size":  11007
+                                                     },
+                  "core/container-escape/SKILL.md":  {
+                                                         "sha256":  "BED05A646B1522AD68D78218C819F6877EC5D05479D682211A6DBE73A6191F20",
+                                                         "size":  7275
+                                                     },
+                  "scripts/oneclick-install.sh":  {
+                                                      "sha256":  "F865B11C26E2B49C404F2127FD932B144D29180805B28AFFED3E64529BA22760",
+                                                      "size":  3328
+                                                  },
+                  "references/smali-playbook.md":  {
+                                                       "sha256":  "E9B4F3F460CA1E0DE1837886A95EFF825C132BD61CE694DA51BC49ECDFCFF5CB",
+                                                       "size":  4555
+                                                   },
+                  "core/pentest-web/ssti/SKILL.md":  {
+                                                         "sha256":  "739E1B5B913890E2EDCE507C60B34F836109915417F7D8EA7292DCF77DF1FA10",
+                                                         "size":  12016
+                                                     },
+                  "core/pentest-web/api-jwt/SKILL.md":  {
+                                                            "sha256":  "66FE465C9F63316CB8839A29A669AB785595741BFAFCD29050FECCC70BCF9293",
+                                                            "size":  2342
+                                                        },
+                  "scripts/oneclick-install.ps1":  {
+                                                       "sha256":  "8953DF0E1218842674A4651A203595227B65B2D8297F6BA336EA5A0969CD3CAC",
+                                                       "size":  6075
+                                                   },
+                  "references/skill-security-playbook.md":  {
+                                                                "sha256":  "1F5ED1497BF6D3753BC2370E61B15FD6A889E80A6B426179176A48E15EC5738C",
+                                                                "size":  3956
+                                                            },
+                  "core/edr-bypass/SKILL.md":  {
+                                                   "sha256":  "215277E4B46BECCEC8CF0462E8BA963AACA351962E352AB5234AF544890CEB5B",
+                                                   "size":  12165
+                                               },
+                  "core/exploit-dev/linux-privesc/SKILL.md":  {
+                                                                  "sha256":  "D5260344B820291BDCAE439B0FF4B48A4B6BF25B4F8B236B6A7BC13BBE5F9FD6",
+                                                                  "size":  10987
+                                                              },
+                  "configs/cline/.clinerules":  {
+                                                    "sha256":  "CBE3878C901C0EA2D3CCE6B844F7E311CFEC887D6CB27BEEBE3C479B59F489C8",
+                                                    "size":  810
+                                                },
+                  "QUICK_INSTALL.md":  {
+                                           "sha256":  "19A4DDE2451FB6010D498E6CB22492C9A66A6DB15EA2FE552B4CC40683819B17",
+                                           "size":  2856
+                                       },
+                  "LICENSE":  {
+                                  "sha256":  "24890D6850BE31C2F2FE6743E0C21619D0D1E1F099FF36F2B2CD6BC7D22A7DCF",
+                                  "size":  1080
+                              },
+                  "configs/aider/.aider.conf.yml":  {
+                                                        "sha256":  "3419ED2B0721FE82DE6ADA3FB174357C6F5D75A6A6BF2B111164C4A336FC1D65",
+                                                        "size":  418
+                                                    },
+                  "core/_router/SKILL.md":  {
+                                                "sha256":  "8410E60D58E6ED8EF675E486CBE62F8D5BB960AFDC4A4BDB94680DCF36420930",
+                                                "size":  3863
+                                            },
+                  "scripts/install.sh":  {
+                                             "sha256":  "0D99DC25385AFF7599F499548CF8E67B2CBA249501ECC2C99B08695C143428A4",
+                                             "size":  3654
+                                         },
+                  "core/mobile-ios/keychain/SKILL.md":  {
+                                                            "sha256":  "AFFA0552C9A9CA5CCF9BF01848D7E2A3366F6E6DDE488AEBB08262788A0E7C76",
+                                                            "size":  11477
+                                                        },
+                  "core/mobile-android/SKILL.md":  {
+                                                       "sha256":  "D91BBE30DF684A459A131CE557D6EDCD1DFD77338BED5F3DB4CAE6CC3DF4B384",
+                                                       "size":  33959
+                                                   },
+                  "core/exploit-dev/windows-privesc/TOKEN_POTATO_TRICKS.md":  {
+                                                                                  "sha256":  "E1801031E5076D9F54E2B1C3F0B286741B34F93EEB8522F5F4B6BA2190BF7CD6",
+                                                                                  "size":  7582
+                                                                              },
+                  "core/wordpress-exploit/SKILL.md":  {
+                                                          "sha256":  "8C01666DF77797654DC37C5B721D5AD7264DA17CC18972656542DCDC82D18010",
+                                                          "size":  12503
+                                                      },
+                  "core/malware-analysis/SKILL.md":  {
+                                                         "sha256":  "5BE3CDEB3379D2F801D399A5654AB6E4FAC1925F015F1196EED7049EB47F17A0",
+                                                         "size":  8124
+                                                     },
+                  "scripts/install-termux.sh":  {
+                                                    "sha256":  "256692493E3CE1C64C7C45C9235E64E86F7C8E14A90FFE26D98AEC1020B5259C",
+                                                    "size":  1433
+                                                },
+                  "core/pentest-web/ssrf/SKILL.md":  {
+                                                         "sha256":  "38168A22D23434AFE2B1159DA8E19CDCD1C3554A31E1ACF87F464382A87BBECC",
+                                                         "size":  11672
+                                                     },
+                  "core/pentest-web/xss/SKILL.md":  {
+                                                        "sha256":  "929BA4CD832FB782AB2C26CD5F79E0620D5355C3DFA8D9D56229D43B0322F204",
+                                                        "size":  13799
+                                                    },
+                  "core/pentest-web/sqli/SQLMAP_ADVANCED.md":  {
+                                                                   "sha256":  "C748BA329F244493021C96BAAEF9019B54E592E117E74E7EDFBD7DE838741605",
+                                                                   "size":  18581
+                                                               },
+                  "core/forensics/SKILL.md":  {
+                                                  "sha256":  "E77EE0EB69AA334355D4722BD955FEF4F19675D0629EB17A9503A36BFBE247E4",
+                                                  "size":  11585
+                                              },
+                  "core/pentest-web/ssti/ENGINE_PAYLOADS.md":  {
+                                                                   "sha256":  "7BFBEA03B6A7B46E4243D64F3D7707A00D0D16609F91513F7150244484F651CD",
+                                                                   "size":  10913
+                                                               },
+                  "core/active-directory/SKILL.md":  {
+                                                         "sha256":  "038402E15EBAF9AE34F19DFD7579E7B29CADAFB6CA276524523509EC37CB628C",
+                                                         "size":  10799
+                                                     },
+                  "scripts/update-manifest.ps1":  {
+                                                      "sha256":  "126F1BB5F18E67E2AAA18D33CB170B47F0495B37C72C1B6EB8C31473E4D1C50E",
+                                                      "size":  1620
+                                                  },
+                  "core/pentest-web/sqli/SCENARIOS.md":  {
+                                                             "sha256":  "7133FE3E3CB982C117F17AAA5983D85A2AAB91058BFF0DA9354E44C8596FEB05",
+                                                             "size":  15499
+                                                         },
+                  "core/crypto/SKILL.md":  {
+                                               "sha256":  "E3F2D6FEE5BB6D761B4DBB22573D48DCC062A84A986C029D4DEA543EC4AAA8F5",
+                                               "size":  14003
+                                           },
+                  "core/exploit-dev/linux-privesc/KERNEL_EXPLOITS_CHECKLIST.md":  {
+                                                                                      "sha256":  "15DD98E88A031F8C049539DCDA9A8674BE051C89BD3A3F1DF54DA8AA0927A084",
+                                                                                      "size":  9856
+                                                                                  },
+                  "references/ops-killchain.md":  {
+                                                      "sha256":  "78FB297AF395842F3F121D6FBC4B501A18946427940A463832AE601A7B27B81F",
+                                                      "size":  6294
+                                                  },
+                  "core/malware-analysis/yara/SKILL.md":  {
+                                                              "sha256":  "C1B5111545E27EC063BB80059A131A13A3BABFCFFC1FC3858558B24A93D43CA5",
+                                                              "size":  11864
+                                                          },
+                  "README.md":  {
+                                    "sha256":  "1D90FE1263BC24F786D537B03EB378010E53959E960738FE8C546441DE8D2ED6",
+                                    "size":  12672
+                                },
+                  "core/exploit-dev/windows-privesc/UAC_BYPASS_METHODS.md":  {
+                                                                                 "sha256":  "0129EEF2B65C657445C2D47B25BD89CE3C7474AE88B090585E92B5BBAC1F3FF5",
+                                                                                 "size":  8619
+                                                                             },
+                  "opencode.json":  {
+                                        "sha256":  "2F44407A256F99229039FD949875056688735B984E0647390C35AC5D5FA46D2D",
+                                        "size":  159
+                                    },
+                  "skill-data.bin":  {
+                                         "sha256":  "29ECA99D9AB184CBE34AFBA05F9733287B885250725BFF20775416EB37576C0E",
+                                         "size":  1108
+                                     },
+                  "configs/claude/settings.json":  {
+                                                       "sha256":  "DEBE218B8BADDD487302AA6FE5D3FE05A06645B583AB5FD90045C94D461A169B",
+                                                       "size":  175
+                                                   },
+                  "scripts/protect-skill.sh":  {
+                                                   "sha256":  "C0F56B5933A03274F3E6E6F23486197C016574D6B3969CAADC39A91C30B173DE",
+                                                   "size":  2144
+                                               },
+                  "core/breach-workflows/SKILL.md":  {
+                                                         "sha256":  "BC0E791619D158BB336045C7786ADB988461F84BAF67DA5FA561CA90B2BF5A5A",
+                                                         "size":  10519
+                                                     },
+                  "AGENT_INSTALL.md":  {
+                                           "sha256":  "F044F3E26A209B24D7CCE408FFC06C385FBC9A73D6A8F5CCBDF283A3B29EAC09",
+                                           "size":  2356
+                                       },
+                  "core/pentest-web/sqli/SKILL.md":  {
+                                                         "sha256":  "D47C9270B6BD4AF03375BE172C1C32A10C6F0DC9CA0CCFB63DD1E15009FA4B34",
+                                                         "size":  15944
+                                                     },
+                  "core/network-recon/SKILL.md":  {
+                                                      "sha256":  "BBCB6144F124169262CB0342A942012A99126034B420950A3A2C791164BC47C6",
+                                                      "size":  8116
+                                                  },
+                  "scripts/skill-loader.ps1":  {
+                                                   "sha256":  "41B610554DA11C3B6B40639B9EF9AC20A9DE683F377ECA814D9E97D12D6A4F4D",
+                                                   "size":  7924
+                                               },
+                  "core/pentest-web/ssrf/URL_PARSER_TRICKS.md":  {
+                                                                     "sha256":  "2FF13B1AC874F63D09573E59B3405CEC13D50488DB90F1F16B9F320A1B1A21FF",
+                                                                     "size":  21541
+                                                                 },
+                  "configs/universal/AGENTS.md":  {
+                                                      "sha256":  "545221E3B76276139401D330B967210AF7DF68D60B8EC86755060EFC7EC93152",
+                                                      "size":  2018
+                                                  },
+                  "core/exploit-dev/SKILL.md":  {
+                                                    "sha256":  "D4F29A2A62D3C52665556A825560E7FC6E0C3580AB97B7D76752CDC6048FB2E3",
+                                                    "size":  9884
+                                                },
+                  "core/game-hacking/SKILL.md":  {
+                                                     "sha256":  "DB7A0C0A3885FE9DD6E4FE15F944087242A0AC1525D5901AA3D8259E5AECBEB1",
+                                                     "size":  8558
+                                                 },
+                  "configs/roo/.roo/code-mode-pentest.md":  {
+                                                                "sha256":  "C9CE1613E868F15EB494385465CCBBE69BB9911BE26DBD8956549BF503B8BBCC",
+                                                                "size":  1225
+                                                            },
+                  "configs/windsurf/.windsurfrules":  {
+                                                          "sha256":  "7A99F48D18DA6C05544191D71493D26CCC89A63871A1DDF93EA2DCDE87C894EC",
+                                                          "size":  806
+                                                      },
+                  "core/exploit-dev/windows-privesc/SKILL.md":  {
+                                                                    "sha256":  "1421C1929887D3470F2207421BAAAE1F3B2C43C9E029E48422B82EDFD5E21FA5",
+                                                                    "size":  11117
+                                                                },
+                  "core/pentest-web/SKILL.md":  {
+                                                    "sha256":  "9A9C0505ADA3363E4D10488C597EDDC78D72ABA4D040CC98652195ECC98DD2F3",
+                                                    "size":  39276
+                                                },
+                  "scripts/protect-skill.ps1":  {
+                                                    "sha256":  "BDBB64405B7A1D9AC108C755C794D468124F6DE2F66795696EDEE95C2AE0755C",
+                                                    "size":  4727
+                                                },
+                  "SECURITY.md":  {
+                                      "sha256":  "E0F3C608328BC4CCAB69619EB3BFA5AD8097C79C3E5CCA74D746AE8C56A5665A",
+                                      "size":  2098
+                                  },
+                  "core/exploit-dev/linux-privesc/SUID_CAPABILITIES_TRICKS.md":  {
+                                                                                     "sha256":  "62B53129E48F523C1803C9CCC17E928147244B9F7400EF17271E1099C6ADAA7A",
+                                                                                     "size":  10074
+                                                                                 },
+                  ".gitignore":  {
+                                     "sha256":  "9A29943D027D346C8CFBE0019ED97612AE537D8A8AB75F126939FA6C6EFD8943",
+                                     "size":  775
+                                 },
+                  "SKILL.md":  {
+                                   "sha256":  "E8F22F2FF0FD5682F914E60B18923D0643E06E7EC5FD831C6D33E9470D47602A",
+                                   "size":  2910
+                               },
+                  "core/mitm-network/SKILL.md":  {
+                                                     "sha256":  "7A72411E7866B78122F28BFF92661112E9BADD75244D955D2FA26856A0F43D60",
+                                                     "size":  6595
+                                                 },
+                  "core/pentest-web/xss/SCENARIOS.md":  {
+                                                            "sha256":  "31AE5090C63CEBF9BDF94F66BDADB9FB78A7481A64FCB486BF041E0DAE363A42",
+                                                            "size":  9014
+                                                        },
+                  "references/jailbreak-playbook.md":  {
+                                                           "sha256":  "9F42480283CC988DB47FB1B39A1382E0D9A118030F30BA3F918C329768BA9C7E",
+                                                           "size":  2983
+                                                       },
+                  "configs/cursor/.cursorrules":  {
+                                                      "sha256":  "2B0BDB69272A0003A3C8EE17FACB720EBCBFB6D67187B5810F1036F741A34B09",
+                                                      "size":  684
+                                                  },
+                  "core/pentest-web/ssrf/SCENARIOS.md":  {
+                                                             "sha256":  "8FF93B1E3B7B7FA7150AE0278DC779249C7F63365462D044A9FEF1B4EA2D3EED",
+                                                             "size":  7684
+                                                         },
+                  "core/wifi-pentest/SKILL.md":  {
+                                                     "sha256":  "7A8702F0894F97283959A9F83B511495585C50A650DA4D6C7E9B08A71A0C0E7B",
+                                                     "size":  9418
+                                                 },
+                  "core/malware-dev/SKILL.md":  {
+                                                    "sha256":  "2F4DEB583A20CE7B68165BF2373626F116A4B654D09F336E4EE495572626985F",
+                                                    "size":  11188
+                                                }
+              }
+}

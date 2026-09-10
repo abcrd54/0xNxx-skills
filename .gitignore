@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Node
+node_modules/
+*.log
+
+# Build
+dist/
+build/
+
+# Output
+/output/
+/work/
+/tmp/
+/reports/
+
+# Memory
+/memory/local/*
+!/memory/local/.gitkeep
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# ============================================
+# PROTECTED: Skill content files
+# Raw SKILL.md files are encoded in skill-data.bin
+# ============================================
+
+# Exclude ALL core SKILL.md files (protected content)
+core/**/SKILL.md
+core/**/*.md
+
+# Exclude references (protected content)
+references/**/*.md
+
+# Include only these files
+!.gitignore
+!README.md
+!LICENSE
+!SECURITY.md
+!AGENT_INSTALL.md
+!QUICK_INSTALL.md
+!SKILL.md
+!opencode.json
+!trust-manifest.json
+!skill-data.bin
+!configs/**/*
+!scripts/**/*
+!memory/**
