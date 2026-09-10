@@ -1,6 +1,6 @@
 #!/bin/bash
 # 0xNxx-skill One-Line Installer for Linux/macOS/Termux
-# Usage: curl -sSL https://raw.githubusercontent.com/bengt-skill/0xNxx-skill/main/install.sh | bash
+# Usage: curl -sSL https://raw.githubusercontent.com/abcrd54/0xNxx-skills/master/scripts/oneclick-install.sh | bash
 
 set -e
 
@@ -12,7 +12,7 @@ CYAN='\033[0;36m'
 NC='\033[0m'
 
 # Configuration
-REPO_URL="https://github.com/bengt-skill/0xNxx-skill/archive/refs/heads/main.zip"
+REPO_URL="https://github.com/abcrd54/0xNxx-skills/archive/refs/heads/master.zip"
 TEMP_DIR="/tmp/0xnxx-install"
 
 # Functions

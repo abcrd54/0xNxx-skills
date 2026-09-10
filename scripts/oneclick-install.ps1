@@ -17,7 +17,7 @@ param(
 $ErrorActionPreference = "Stop"
 
 # Configuration
-$REPO_URL = "https://github.com/bengt-skill/0xNxx-skill/archive/refs/heads/main.zip"
+$REPO_URL = "https://github.com/abcrd54/0xNxx-skills/archive/refs/heads/master.zip"
 $TEMP_DIR = "$env:TEMP\0xnxx-install"
 $ZIP_FILE = "$TEMP_DIR\0xnxx-skill.zip"
 
